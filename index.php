@@ -4,12 +4,11 @@
 <?php require_once('blocks/head.php'); ?>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2W6VBH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <!-- End Google Tag Manager (noscript) -->
-  <div class="loader" id="loader">
+  <!-- <div class="loader" id="loader">
     <img src="img/loader.svg" alt="Loading...">
-  </div>
+  </div> -->
     <?php require_once('blocks/header.php'); ?>
     <?php if(!isset($_REQUEST['content'])){
       require_once('blocks/home.php');

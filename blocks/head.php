@@ -4,10 +4,12 @@
       <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
       <meta name="description" content="">
       <meta name="author" content="Carlos Rubio at Brand Media Digital Group">
-      <title>Sintecto</title>
+      <title>Psignma</title>
       <!-- Bootstrap Core CSS -->
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+      <!-- New -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
       <link href="css/font-awesome.min.css" rel="stylesheet">
       <!-- <link href="css/jquery.bxslider.min.css" rel="stylesheet" /> -->
       <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

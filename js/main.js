@@ -12,6 +12,8 @@ consulta.addListener(mediaQuery);
 
 var $burguerButton = document.getElementById('burguer-button');
 var $burguerButton2 = document.getElementById('burguer-button2');
+var $burguerButton3 = document.getElementById('burguer-button3');
+var $burguerButton4 = document.getElementById('burguer-button4');
 var $close = document.getElementById('close');
 var $menu = document.getElementById('menu');
 
@@ -29,10 +31,14 @@ function mediaQuery() {
           console.log('se cumplió la condicion');
           $burguerButton.addEventListener('touchstart', toggleMenu);
           $burguerButton2.addEventListener('touchstart', toggleMenu);
+          $burguerButton3.addEventListener('touchstart', toggleMenu);
+          $burguerButton4.addEventListener('touchstart', toggleMenu);
           $close.addEventListener('touchstart', closeMenu);
         } else {
           $burguerButton.addEventListener('click', toggleMenu);
-          $burguerButton2 .addEventListener('click', toggleMenu);
+          $burguerButton2.addEventListener('click', toggleMenu);
+          $burguerButton3.addEventListener('click', toggleMenu);
+          $burguerButton4.addEventListener('click', toggleMenu);
           $close.addEventListener('click', closeMenu);
           // si no se cumple hagamos esto
           console.log('no se cumplió la condicion');
@@ -48,12 +54,6 @@ var bLazy = new Blazy({
 // Bx Slider
 $(document).ready(function(){
   descargar();
-  $('.bxslider').bxSlider({
-    minSlides: 1,
-    maxSlides: 4,
-    slideWidth: 370,
-    slideMargin: 15
-  });
 });
 
 // Validacion del formulario
@@ -73,7 +73,7 @@ $('#contacto').validate(  {
       required: true,
 
     },
-    cargo: {
+    ciudad: {
       required: true,
     },
     empleados: {
@@ -96,7 +96,7 @@ $('#contacto').validate(  {
       required: "Por favor escribe tu E-mail",
       minlength: "Escribe un E-mail valido"
     },
-    cargo: {
+    ciudad: {
       required: "Por favor completa este campo",
     },
     empleados: {
@@ -113,8 +113,9 @@ $('#contacto').validate(  {
     .done(function(data){
       $('.form-control').val('');
       descargar();
+      console.log(data);
       //bootbox.alert(data, function() {console.log("Alert Callback");});
-      window.location.href = "?content=gracias";
+      //window.location.href = "?content=gracias";
     })
   }
 });
@@ -134,7 +135,7 @@ $('#contacto2').validate(  {
       required: true,
 
     },
-    cargo: {
+    ciudad: {
       required: true,
     },
     empleados: {
@@ -157,7 +158,7 @@ $('#contacto2').validate(  {
       required: "Por favor escribe tu E-mail",
       minlength: "Escribe un E-mail valido"
     },
-    cargo: {
+    ciudad: {
       required: "Por favor completa este campo",
     },
     empleados: {
