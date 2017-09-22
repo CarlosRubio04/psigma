@@ -6,9 +6,9 @@
 <!-- Google Tag Manager (noscript) -->
 
 <!-- End Google Tag Manager (noscript) -->
-  <!-- <div class="loader" id="loader">
+  <div class="loader" id="loader">
     <img src="img/loader.svg" alt="Loading...">
-  </div> -->
+  </div>
     <?php require_once('blocks/header.php'); ?>
     <?php if(!isset($_REQUEST['content'])){
       require_once('blocks/home.php');

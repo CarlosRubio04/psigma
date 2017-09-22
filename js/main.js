@@ -113,9 +113,8 @@ $('#contacto').validate(  {
     .done(function(data){
       $('.form-control').val('');
       descargar();
-      console.log(data);
-      //bootbox.alert(data, function() {console.log("Alert Callback");});
-      //window.location.href = "?content=gracias";
+      //console.log(data);
+      window.location.href = "?content=gracias";
     })
   }
 });
@@ -175,7 +174,6 @@ $('#contacto2').validate(  {
     .done(function(data){
       $('.form-control').val('');
       descargar();
-      //bootbox.alert(data, function() {console.log("Alert Callback");});
       window.location.href = "?content=gracias";
     })
   }
