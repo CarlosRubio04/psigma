@@ -30,19 +30,19 @@
 				<h5>Síguenos</h5>
 				<ul class="social">
 					<li>
-						<a href="#" class="fb"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/PsigmaCorporation" target="_blank" class="fb"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#" class="tw"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/PsigmaCorp" target="_blank" class="tw"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#" class="in"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/company/psigma-corp" target="_blank" class="in"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#" class="gp"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/+Psigmacorp" target="_blank" class="gp"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li>
-						<a href="#" class="yt"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.youtube.com/user/PsigmaCorporationSAS" target="_blank" class="yt"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>

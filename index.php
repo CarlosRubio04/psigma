@@ -4,7 +4,8 @@
 <?php require_once('blocks/head.php'); ?>
 <body>
 <!-- Google Tag Manager (noscript) -->
-
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC9KGLT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <div class="loader" id="loader">
     <img src="img/loader.svg" alt="Loading...">
